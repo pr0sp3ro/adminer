@@ -2,5 +2,5 @@
 
 return array(
     new AdminerTinymce("tinymce.min.js"),
-    new AdminerLoginPasswordLess(password_hash("password", PASSWORD_DEFAULT)),
+    // new AdminerLoginPasswordLess(password_hash("password", PASSWORD_DEFAULT)),
 );
